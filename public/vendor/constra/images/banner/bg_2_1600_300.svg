@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1600 300" width="100%" height="100%" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path id="svg_53" d="m785.23812,478.57093l48.09395,-60.47633" opacity="NaN" stroke-width="0" stroke="#000" fill="#ff617a"/>
+  <rect x="0" y="0" id="svg_31" height="300" width="1600" stroke-width="0" stroke="#000" fill="url(#svg_57)"/>
+  <g id="svg_60">
+   <g id="svg_58">
+    <rect transform="rotate(-45 366.755 -75.9908)" stroke-width="0" stroke="#000" id="svg_4" height="500" width="504" y="-325.99079" x="114.7542" fill="#9154e3"/>
+    <rect transform="rotate(-45 143.314 347.873)" stroke-width="0" stroke="#000" id="svg_2" height="500" width="500" y="97.87324" x="-106.68608" fill="#ff617a"/>
+    <rect transform="rotate(-45 -38.273 -17.7852)" stroke-width="0" stroke="#000" id="svg_8" height="500" width="500" y="-267.78524" x="-288.2734" fill="#54e38a"/>
+   </g>
+   <g id="svg_59">
+    <rect transform="rotate(-45 1173.79 407.783)" stroke-width="0" stroke="#000" id="svg_6" height="500" width="504" y="157.78291" x="921.79409" fill="#68bdfa"/>
+    <rect transform="rotate(45 1581.63 -22.9213)" stroke="#000" stroke-width="0" id="svg_10" height="705.84667" width="833.12584" y="-375.84465" x="1165.07019" fill="#e4fb5d"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <radialGradient r="0.5" cy="0.5" cx="0.5" spreadMethod="pad" id="svg_57">
+   <stop offset="0" stop-opacity="0.99609" stop-color="#232323"/>
+   <stop offset="1" stop-color="#000000"/>
+  </radialGradient>
+ </defs>
+</svg>

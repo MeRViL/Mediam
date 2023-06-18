@@ -1,0 +1,41 @@
+<svg width="1600" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <rect fill="#9154e3" stroke="#000" stroke-width="0" x="0" y="0" width="1600" height="600" id="svg_21"/>
+  <path fill="#ff617a" stroke="#000" stroke-width="0" opacity="NaN" d="m785.23812,478.57093l48.09395,-60.47633" id="svg_53"/>
+  <g id="svg_7">
+   <ellipse fill="url(#svg_26)" stroke="#000" stroke-width="0" cx="950" cy="300.00003" id="svg_6" rx="850" ry="850"/>
+   <ellipse fill="url(#svg_25)" stroke="#000" stroke-width="0" cx="950" cy="300" id="svg_5" rx="750" ry="750"/>
+   <ellipse fill="url(#svg_24)" stroke="#000" stroke-width="0" cx="950.00003" cy="300.00001" id="svg_4" rx="650" ry="650"/>
+   <ellipse fill="url(#svg_23)" stroke="#000" stroke-width="0" cx="951" cy="300" id="svg_3" rx="550" ry="550"/>
+   <ellipse fill="url(#svg_22)" stroke="#000" stroke-width="0" cx="951" cy="300" id="svg_2" rx="450" ry="450"/>
+   <ellipse fill="url(#svg_57)" stroke="#000" stroke-width="0" cx="951" cy="300" id="svg_1" rx="350" ry="350"/>
+  </g>
+ </g>
+ <defs>
+  <radialGradient id="svg_57" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#232323" stop-opacity="0.99609" offset="0"/>
+   <stop stop-color="#000000" offset="1"/>
+  </radialGradient>
+  <radialGradient id="svg_22" spreadMethod="pad" cx="0.5" cy="0.5" r="0.50126">
+   <stop stop-color="#000000" stop-opacity="0.97656" offset="0.5"/>
+   <stop stop-color="#e4fb5d" offset="1" stop-opacity="0.99219"/>
+  </radialGradient>
+  <radialGradient id="svg_23" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#000000" stop-opacity="0.98047" offset="0.53125"/>
+   <stop stop-color="#54e38a" offset="1" stop-opacity="0.99609"/>
+  </radialGradient>
+  <radialGradient id="svg_24" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#000000" stop-opacity="0.98828" offset="0.52734"/>
+   <stop stop-color="#68bdfa" offset="1" stop-opacity="0.99609"/>
+  </radialGradient>
+  <radialGradient id="svg_25" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#000000" stop-opacity="0.98438" offset="0.51953"/>
+   <stop stop-color="#ff617a" offset="1" stop-opacity="0.99609"/>
+  </radialGradient>
+  <radialGradient id="svg_26" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#000000" stop-opacity="0.98438" offset="0.55469"/>
+   <stop stop-color="#9154e3" offset="1" stop-opacity="0.99609"/>
+  </radialGradient>
+ </defs>
+</svg>

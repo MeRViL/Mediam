@@ -1,0 +1,49 @@
+<svg width="1600" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <rect fill="#9154e3" stroke="#000" stroke-width="0" x="0" y="0" width="1600" height="600" id="svg_21"/>
+  <path fill="#ff617a" stroke="#000" stroke-width="0" opacity="NaN" d="m785.23812,478.57093l48.09395,-60.47633" id="svg_53"/>
+  <g id="svg_14">
+   <ellipse fill="url(#svg_20)" stroke="#000" stroke-width="0" cx="100" cy="500" id="svg_6" rx="750" ry="750"/>
+   <ellipse fill="url(#svg_19)" stroke="#000" stroke-width="0" cx="100" cy="500" id="svg_5" rx="650" ry="650"/>
+   <ellipse fill="url(#svg_18)" stroke="#000" stroke-width="0" cx="101.33334" cy="499.99999" id="svg_4" rx="550" ry="550"/>
+   <ellipse fill="url(#svg_17)" stroke="#000" stroke-width="0" cx="99.66666" cy="500" id="svg_3" rx="450" ry="450"/>
+   <ellipse fill="url(#svg_15)" stroke="#000" stroke-width="0" cx="101" cy="500" id="svg_2" rx="350" ry="350"/>
+   <ellipse fill="url(#svg_57)" stroke="#000" stroke-width="0" cx="101" cy="500" id="svg_1" rx="250" ry="250"/>
+  </g>
+  <g id="svg_27">
+   <ellipse fill="url(#svg_20)" stroke="#000" stroke-width="0" cx="1550" cy="100" id="svg_16" rx="750" ry="750"/>
+   <ellipse fill="url(#svg_19)" stroke="#000" stroke-width="0" cx="1550" cy="100" id="svg_22" rx="650" ry="650"/>
+   <ellipse fill="url(#svg_18)" stroke="#000" stroke-width="0" cx="1551.33334" cy="99.99999" id="svg_23" rx="550" ry="550"/>
+   <ellipse fill="url(#svg_17)" stroke="#000" stroke-width="0" cx="1549.66666" cy="100" id="svg_24" rx="450" ry="450"/>
+   <ellipse fill="url(#svg_15)" stroke="#000" stroke-width="0" cx="1551" cy="100" id="svg_25" rx="350" ry="350"/>
+   <ellipse fill="url(#svg_57)" stroke="#000" stroke-width="0" cx="1551" cy="100" id="svg_26" rx="250" ry="250"/>
+  </g>
+ </g>
+ <defs>
+  <radialGradient id="svg_57" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#232323" stop-opacity="0.99609" offset="0"/>
+   <stop stop-color="#000000" offset="1"/>
+  </radialGradient>
+  <radialGradient id="svg_15" spreadMethod="pad" cx="0.5" cy="0.5" r="0.50126">
+   <stop stop-color="#000000" stop-opacity="0.98047" offset="0.23828"/>
+   <stop stop-color="#e4fb5d" offset="1" stop-opacity="0.99219"/>
+  </radialGradient>
+  <radialGradient id="svg_17" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#000000" stop-opacity="0.98438" offset="0.55469"/>
+   <stop stop-color="#54e38a" offset="1" stop-opacity="0.99609"/>
+  </radialGradient>
+  <radialGradient id="svg_18" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#000000" stop-opacity="0.99219" offset="0.70313"/>
+   <stop stop-color="#68bdfa" offset="1" stop-opacity="0.99609"/>
+  </radialGradient>
+  <radialGradient id="svg_19" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#000000" stop-opacity="0.98828" offset="0.75781"/>
+   <stop stop-color="#ff617a" offset="1" stop-opacity="0.99609"/>
+  </radialGradient>
+  <radialGradient id="svg_20" spreadMethod="pad" cx="0.5" cy="0.5" r="0.5">
+   <stop stop-color="#000000" stop-opacity="0.98828" offset="0.69531"/>
+   <stop stop-color="#9154e3" offset="1" stop-opacity="0.99609"/>
+  </radialGradient>
+ </defs>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="1600" height="300" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <rect id="svg_22" height="300" width="1600" y="0" x="0" stroke-width="0" stroke="#000" fill="#000000"/>
+  <rect stroke-width="0" rx="50" stroke="#000" id="svg_2" height="100" width="504" y="6" x="-17.5" fill="url(#svg_3)"/>
+  <rect stroke-width="0" rx="50" stroke="#000" id="svg_4" height="100" width="504" y="22" x="494.5" fill="url(#svg_5)"/>
+  <rect stroke-width="0" rx="50" stroke="#000" id="svg_6" height="100" width="504" y="6" x="1060.5" fill="url(#svg_7)"/>
+  <rect stroke-width="0" rx="50" stroke="#000" id="svg_8" height="100" width="504" y="172" x="203.5" fill="url(#svg_9)"/>
+  <rect stroke-width="0" rx="50" stroke="#000" id="svg_10" height="100" width="504" y="155" x="926.5" fill="url(#svg_11)"/>
+  <rect stroke-width="0" rx="50" stroke="#000" id="svg_12" height="100" width="504" y="54" x="-55.5" fill="url(#svg_3)"/>
+  <rect stroke-width="0" rx="50" stroke="#000" id="svg_13" height="100" width="504" y="70" x="456.5" fill="url(#svg_5)"/>
+  <rect stroke-width="0" rx="50" stroke="#000" id="svg_14" height="100" width="504" y="54" x="1022.5" fill="url(#svg_7)"/>
+  <rect stroke-width="0" rx="50" stroke="#000" id="svg_15" height="100" width="504" y="220" x="165.5" fill="url(#svg_9)"/>
+  <rect stroke-width="0" rx="50" stroke="#000" id="svg_16" height="100" width="504" y="203" x="888.5" fill="url(#svg_11)"/>
+ </g>
+ <defs>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_3">
+   <stop offset="0" stop-opacity="0" stop-color="#000000"/>
+   <stop offset="1" stop-opacity="0.99609" stop-color="#ff617a"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_5">
+   <stop offset="0" stop-opacity="0" stop-color="#000000"/>
+   <stop offset="1" stop-opacity="0.99219" stop-color="#9154e3"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_7">
+   <stop offset="0" stop-opacity="0" stop-color="#000000"/>
+   <stop offset="1" stop-opacity="0.98828" stop-color="#68bdfa"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_9">
+   <stop offset="0" stop-opacity="0" stop-color="#000000"/>
+   <stop offset="1" stop-opacity="0.98438" stop-color="#54e38a"/>
+  </linearGradient>
+  <linearGradient y2="0" x2="1" y1="0" x1="0" id="svg_11">
+   <stop offset="0" stop-opacity="0" stop-color="#000000"/>
+   <stop offset="1" stop-opacity="0.98047" stop-color="#e4fb5d"/>
+  </linearGradient>
+ </defs>
+</svg>
