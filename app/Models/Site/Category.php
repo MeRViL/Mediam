@@ -20,6 +20,7 @@ class Category extends Model
         'key_words',//$table->text('key_words')->nulable();// Значение
         'public',//$table->boolean('public')->default(false);// Опубликовано
         'in_menu',//$table->boolean('in_menu')->default(false);// Отображается в меню сайта
+        'parent_id',//$table->boolean('in_menu')->default(false);// Отображается в меню сайта
     ];
 
     public function smal_image()
@@ -34,9 +35,12 @@ class Category extends Model
 
     public function parent()
     {
-        return $this->belongsTo(Self::class, 'category_id');
+        return $this->belongsTo(Self::class, 'parent_id');
     }
-    
+    public function children()
+    {
+        return $this->hasMany(Self::class,'parent_id');
+    }
     public function posts()
     {
         return $this->hasMany(Post::class);

@@ -96,7 +96,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     @foreach ($menu as $item)
+                        @if ($item->children->count() > 0)
+                        <li class="nav-item dropdown" style="text-transform: uppercase;">
+                            <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">{{$item->name}}</a>
+                            <div class="dropdown-menu">
+                                @foreach ($item->children as $itemc)
+                                <a class="dropdown-item" href="{{$itemc->url}}">{{$itemc->name}}</a>
+                                @endforeach
+                            </div>
+                        </li>
+                        @else
                         <li class="nav-item"><a style="text-transform: uppercase;" class="nav-link" href="{{$item->url}}">{{$item->name}}</a></li>
+                        @endif
+                        
                     @endforeach
                     {{-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
@@ -160,7 +173,9 @@
     <div id="app" class="main-content">
         
             @yield('content')
-        
+            @if ($category->posts->count() <= 1)
+                {!! $category->posts->first()->description !!}                
+            @endif
 
         
 

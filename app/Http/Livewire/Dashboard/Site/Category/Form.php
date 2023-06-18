@@ -27,6 +27,7 @@ class Form extends Component
         'category.key_words' => 'string|nullable',//$table->text('key_words')->nulable();// Значение
         'category.public' => 'bool|nullable',//$table->boolean('public')->default(false);// Опубликовано
         'category.in_menu' => 'bool|nullable',//$table->boolean('in_menu')->default(false);// Отображается в меню сайта
+        'category.parent_id' => 'int|nullable',//$table->boolean('in_menu')->default(false);// Отображается в меню сайта
     ];
     public function saveImage($image, $desc)
     {

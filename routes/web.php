@@ -63,7 +63,7 @@ Route::middleware([
     // Route::get('/contact', function () {
     //     return view('public.contact');
     // });
-    Route::post('ckeditor/upload', 'CKEditorController@upload')->name('ckeditor.image-upload');
+    // Route::post('ckeditor/upload', 'CKEditorController@upload')->name('ckeditor.image-upload');
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');

@@ -11,17 +11,21 @@ use Illuminate\Database\Eloquent\Builder;
 
 class PublicController extends Controller
 {
-    public function public(){
+    public function public(Request $request ){
         
-        $menu = Category::where('public', 1)->get()->sortBy('position');
+        $menu = Category::where('public', 1)->where('parent_id', null)->get()->sortBy('position');
         $sliders = Slider::all();
         $setting = Setting::first();
+        $category = Category::where('url', $request->path())->first();
+        
+        // dd($category->posts->first()->description);
+        // dd($request->path());
         // return view('public.main', [
         return view('vie.main', [
             'menu' => $menu,
             'sliders' => $sliders,
             'setting' => $setting,
-            'post' => Post::where('public', 1)->where('slug', 'main')->first()
+            'category' => $category
         ]);
     }
     public function getPage($category, $post = null)

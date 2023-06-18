@@ -4,12 +4,13 @@
 
 
 @section('css')
+    
 @endsection
 @section('slider')
-    <header class="slider slider-prlx fixed-slider text-center">
-        <div class="swiper-container parallax-slider">
-            <div class="swiper-wrapper">
-                {{-- <div class="swiper-slide">
+<header class="slider slider-prlx fixed-slider text-center">
+    <div class="swiper-container parallax-slider">
+        <div class="swiper-wrapper">
+            {{-- <div class="swiper-slide">
                 <div class="bg-img valign" data-background="https://mediam.by/vendor/vie/vie-dark/img/slid/01.jpg" data-overlay-dark="6">
                     <div class="container">
                         <div class="row justify-content-center">
@@ -64,8 +65,8 @@
                 </div>
             </div> --}}
 
-                @foreach ($sliders as $slider)
-                    {{-- <div class="banner-carousel-item" style="background-image:url({{ asset('storage/'.$slider->image->url) }})">
+             @foreach ($sliders as $slider)
+            {{-- <div class="banner-carousel-item" style="background-image:url({{ asset('storage/'.$slider->image->url) }})">
                 <div class="text-{{ $slider['align'] }} slider-content">
                     <div class="container h-100">
                         <div class="row align-items-center h-100">
@@ -81,49 +82,48 @@
                     </div>
                 </div>
             </div> --}}
-                    <div class="swiper-slide">
-                        <div class="bg-img valign" data-background="{{ asset('storage/' . $slider->image->url) }}"
-                            data-overlay-dark="6">
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-7 col-md-9">
-                                        <div class="caption center mt-30">
-                                            <h1 class="color-font">{{ $slider->name }}</h1>
-                                            <p>{{ $slider->description }}</p>
-                                            <a href="{{ $slider->url }}" class="butn bord curve mt-30">
-                                                <span>{{ $slider->action }}</span>
-                                            </a>
-                                        </div>
-                                    </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="{{ asset('storage/'.$slider->image->url) }}" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7 col-md-9">
+                                <div class="caption center mt-30">
+                                    <h1 class="color-font">{{ $slider->name }}</h1>
+                                    <p>{{ $slider->description }}</p>
+                                    <a href="{{ $slider->url }}" class="butn bord curve mt-30">
+                                        <span>{{ $slider->action }}</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                @endforeach
-            </div>
-
-            <!-- slider setting -->
-            <div class="setone setwo">
-                <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
-                    <i class="fas fa-chevron-right"></i>
                 </div>
-                <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
-                    <i class="fas fa-chevron-left"></i>
-                </div>
-            </div>
-            <div class="swiper-pagination top botm "></div>
+            </div> 
+        @endforeach
+        </div>
 
-            {{-- <div class="social-icon">
+        <!-- slider setting -->
+        <div class="setone setwo">
+            <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+        </div>
+        <div class="swiper-pagination top botm "></div>
+
+        {{-- <div class="social-icon">
             <a href="#0"><i class="fab fa-facebook-f"></i></a>
             <a href="#0"><i class="fab fa-twitter"></i></a>
             <a href="#0"><i class="fab fa-behance"></i></a>
             <a href="#0"><i class="fab fa-pinterest-p"></i></a>
         </div> --}}
-        </div>
-    </header>
+    </div>
+</header>
 @endsection
 @section('content')
-    {!! $post->description ?? '' !!}
+    {!! $post->description ?? "" !!}
 @endsection
 @section('js')
     <script>
