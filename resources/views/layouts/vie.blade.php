@@ -173,9 +173,7 @@
     <div id="app" class="main-content">
         
             @yield('content')
-            @if ($category->posts->count() <= 1)
-                {!! $category->posts->first()->description !!}                
-            @endif
+           
 
         
 

@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');// Наименование
             $table->string('slug');// Значение
-            $table->string('position');// позиция
+            $table->integer('position');// позиция
             $table->string('url')->nulable();// Значение
             $table->foreignId('smal_image_id')->nullable()->constrained('files');// Родительская категория
             $table->foreignId('big_image_id')->nullable()->constrained('files');// Родительская категория

@@ -22,7 +22,7 @@ return new class extends Migration
             $table->foreignId('category_id')->nullable()->constrained('categories');// ссылка на категорию
             $table->text('description')->nullable();// Описание
             $table->text('short_description')->nullable();// Описание
-            $table->integer('views');// Просмотры
+            $table->integer('views')->default(0);// Просмотры
             $table->boolean('public')->default(false);// Опубликовано
             $table->string('price')->nullable();// цена
             $table->string('old_price')->nullable();// старая цена

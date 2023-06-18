@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('passports', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('place_id')->nullable()->constrained('places');
+            //$table->foreignId('place_id')->nullable()->constrained('places');
             $table->string('number');
             $table->string('personal_number')->nullable(); //личный номер;
             $table->string('issued_by');
@@ -23,8 +23,8 @@ return new class extends Migration
             $table->string('stop')->nullable();
             $table->foreignId('person_id')->nullable()->constrained('people');
             $table->foreignId('country_id')->constrained('countries');
-            $table->foreignId('address_id')->constrained('addreses');
-            // $table->foreignId('owner_id')->nullable()->constrained('entities');
+            $table->foreignId('address_id')->constrained('addresses');
+            $table->foreignId('owner_id')->nullable()->constrained('entities');
             $table->timestamps();
         });
     }

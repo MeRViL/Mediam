@@ -18,7 +18,10 @@ return new class extends Migration
             $table->string('name')->nulable();// Наименование
             $table->string('slug')->nulable();// Значение
             $table->string('url');// Значение
+            $table->string('mim_type')->nulable();// mim_type
             $table->text('description')->nulable();// Значение
+            $table->foreignId('user_id')->nullable()->constrained('users');
+            $table->foreignId('entity_id')->nullable()->constrained('entities');// Компания
             $table->timestamps();
         });
     }

@@ -20,8 +20,9 @@ return new class extends Migration
             $table->string('description');// Описание
             $table->foreignId('currency_id')->constrained('currencies');// Валюта
             $table->foreignId('bank_id')->constrained('banks');// Банк
-            $table->foreignId('country_id')->nullable()->constrained('countries');// Человек
-            // Компания
+            $table->foreignId('country_id')->nullable()->constrained('countries');// Страна
+            $table->foreignId('person_id')->nullable()->constrained('people'); 
+            $table->foreignId('entity_id')->nullable()->constrained('entities');// Компания
             $table->timestamps();
         });
     }
